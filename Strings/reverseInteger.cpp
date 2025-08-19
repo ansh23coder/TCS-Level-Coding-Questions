@@ -2,6 +2,7 @@
 
 // similar to 'ReverseANumber.cpp'
 
+/*
 class Solution {
 public:
     int reverse(int x) {
@@ -17,5 +18,6 @@ public:
         }
         return ans;
     }
-}; 
+};
+*/ 
 // Initially values of INT_MAX and INT_MIN is INT_MAX = 2147483647   (for 32-bit Integers) & -2147483648   (for 32-bit Integers) respectively.
