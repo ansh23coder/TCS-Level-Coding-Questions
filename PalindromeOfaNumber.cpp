@@ -31,7 +31,7 @@ using namespace std;
 // False
 
 // true-------------
-bool PlaindromeNum(const string& num){
+bool PalindromeNum(const string& num){
     int l = 0;
     int r = num.size()-1;
 
@@ -49,7 +49,7 @@ int main(){
     cout << "enter number: ";
     cin>>num;
 
-    if(PlaindromeNum(num)){
+    if(PalindromeNum(num)){
         cout << "True";
     }
     else{
