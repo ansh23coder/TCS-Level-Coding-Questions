@@ -1,3 +1,21 @@
+// https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1
+// https://www.geeksforgeeks.org/dsa/program-to-find-largest-element-in-an-array/
+
+
+/*
+class Solution {
+  public:
+    int largest(vector<int> &arr) {        
+        // method 1:
+        // sort(arr.begin(), arr.end());
+        // return arr.back();
+        
+        // method 2: 
+         return *max_element(arr.begin(), arr.end());
+    }
+};
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,7 +29,6 @@ int maxDigit(int num) {
             maxDigit = digit;
         }
     }
-    
     return maxDigit;
 }
 
@@ -20,7 +37,6 @@ int main(){
     int num; // 123
     cout << "enter number: ";
     cin >> num;
-    
     int ans = maxDigit(num);
     cout << "Max number: " << ans;
 }
