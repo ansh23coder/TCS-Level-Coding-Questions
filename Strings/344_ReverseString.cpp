@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/reverse-string/
+// https://www.geeksforgeeks.org/problems/reverse-an-array/1
+
 
 class Solution {
 public:
@@ -13,3 +15,4 @@ public:
         }
     }
 };
+
