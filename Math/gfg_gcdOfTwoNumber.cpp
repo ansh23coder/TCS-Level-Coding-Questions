@@ -22,3 +22,14 @@ int main(){
     cout << obj.gcd(a, b);
     return 0;
 }
+/*
+Output:
+4 2
+= 2
+
+8 5
+= 1
+
+5 15
+= 5
+*/

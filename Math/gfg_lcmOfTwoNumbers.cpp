@@ -27,3 +27,8 @@ int main() {
     cout << "LCM: " << result[0] << ", GCD: " << result[1] << endl;
     return 0;
 }
+/*
+output:
+Enter two integers: 5 9 
+LCM: 45, GCD: 1
+*/
